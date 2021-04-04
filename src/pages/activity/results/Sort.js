@@ -14,10 +14,10 @@ function Sort({ quakeSort, quakes, sortBy }) {
       <label>
         Sort by:
         <select id="sort-input" onChange={handleChanges}>
+          <option value="descending magnitude">Magnitude: Highest First</option>
+          <option value="ascending magnitude">Magnitude: Lowest First</option>
           <option value="newest">Time: Newest First</option>
           <option value="oldest">Time: Oldest First</option>
-          <option value="ascending magnitude">Magnitude: Lowest First</option>
-          <option value="descending magnitude">Magnitude: Highest First</option>
           <option value="closest distance">Distance: Closest First</option>
           <option value="furthest distance">Distance: Furthest First</option>
           <option value="closest depth">Depth: Closest First</option>
