@@ -1,9 +1,9 @@
 import React from 'react';
 
 const filter = [
-  {link: 'https://quakelabs-be-production.herokuapp.com/api/activity/alltime-biggest', text: 'All Time Biggest'},
-  {link: 'https://quakelabs-be-production.herokuapp.com/api/nukes/boom', text: 'Caused by Nukes'},
-  {link: 'https://quakelabs-be-production.herokuapp.com/api/tsunami/splash', text: 'Caused a Tsunami'},
+  {link: 'https://faultline-mirror-be.herokuapp.com/api/activity/alltime-biggest', text: 'All Time Biggest'},
+  {link: 'https://faultline-mirror-be.herokuapp.com/api/nukes/boom', text: 'Caused by Nukes'},
+  {link: 'https://faultline-mirror-be.herokuapp.com/api/tsunami/splash', text: 'Caused a Tsunami'},
 ]
 
 const QuickFilters = ({quickFilters}) => {

@@ -25,21 +25,21 @@ exports[`Filters.js Tests Filters.js Snapshot Filters.js renders with mocked sta
       >
         <button
           className="quick-filters-button"
-          name="https://quakelabs-be-production.herokuapp.com/api/activity/alltime-biggest"
+          name="https://faultline-mirror-be.herokuapp.com/api/activity/alltime-biggest"
           onClick={[Function]}
         >
           All Time Biggest
         </button>
         <button
           className="quick-filters-button"
-          name="https://quakelabs-be-production.herokuapp.com/api/nukes/boom"
+          name="https://faultline-mirror-be.herokuapp.com/api/nukes/boom"
           onClick={[Function]}
         >
           Caused by Nukes
         </button>
         <button
           className="quick-filters-button"
-          name="https://quakelabs-be-production.herokuapp.com/api/tsunami/splash"
+          name="https://faultline-mirror-be.herokuapp.com/api/tsunami/splash"
           onClick={[Function]}
         >
           Caused a Tsunami

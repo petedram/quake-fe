@@ -18,7 +18,7 @@ const Sms = (state) => {
 
     await axios
       .post(
-        "https://quakelabs-be-production.herokuapp.com/api/sms/create-notify",
+        "https://faultline-mirror-be.herokuapp.com/api/sms/create-notify",
         smsInfo
       )
       .then(function (res) {
@@ -33,7 +33,7 @@ const Sms = (state) => {
 
     axios
       .post(
-        "https://quakelabs-be-production.herokuapp.com/api/sms/signup-sms",
+        "https://faultline-mirror-be.herokuapp.com/api/sms/signup-sms",
         smsInfo
       )
       .then(function (res) {
